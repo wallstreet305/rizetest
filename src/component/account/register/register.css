@@ -1,0 +1,118 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.register-header {
+    justify-content: 'center';
+    padding: 30px 0 50px 0;
+}
+.header-title {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0 0 15px 0;
+}
+.sub-header {
+    font-size: 18px;
+}
+.link-to-login-container {
+    margin-bottom: 25px;
+}
+.link-to-login-container a {
+    color: #085394;
+}
+.input-text-container {
+    justify-content: center;
+    align-items: center;
+}
+.field-container,
+.bio-outer,
+.select-field {
+    margin-bottom: 15px;
+}
+.field-container,
+.select-field, .select-field div,
+.bio-outer  {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.select-field > div {
+    width: 100%;
+    margin-left: 0;
+}
+.select-field > div div {
+    width: auto;
+    margin-left: 15px;
+}
+.header-container form {
+    max-width: 500px;
+}
+.field-container .input-label,
+.select-field label, 
+.bio-outer label,
+.field-container label  {
+    width: 135px;
+    display: block;
+}
+.field-container .form-control,
+.select-field .react-datetime-picker__wrapper {
+    border: 2px solid #000;
+    font-size: 14px;
+    line-height: 1.4;
+    height: 17px;
+    margin-left: 13px;
+    width: 300px;
+    padding: 7px 15px;
+}
+.select-field .react-datetime-picker__wrapper {
+    height: 35px;
+    margin-left: 0;
+    width: 200px;
+}
+.select-field .react-datetime-picker__wrapper .react-datetime-picker__clear-button__icon {
+    display: none;
+}
+.registration-error-message {
+    color: red;
+}
+.field-container {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+.bio-outer  .field-container {
+    margin-bottom: 0;
+}
+.input-text {
+    margin-left: 2%;
+    height: 20px;
+    width: 20%;
+}
+.radio-outer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+.radio-outer .field-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.zip-codeOuter .form-control {
+    width: 70px;
+}
+
+.submit-btn {
+    width: 70px;
+    border: 2px solid #000;
+    height: 35px;
+    color: #000;
+    font-weight: 700;
+    border-bottom-width: 4px;
+    margin-top: 30px;
+}
